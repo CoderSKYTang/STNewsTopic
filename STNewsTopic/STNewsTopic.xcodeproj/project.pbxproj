@@ -13,6 +13,7 @@
 		A94ADBFF1CE1E72300A40C54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94ADBF71CE1E72300A40C54 /* AppDelegate.m */; };
 		A94ADC001CE1E72300A40C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94ADBF81CE1E72300A40C54 /* main.m */; };
 		A94ADC011CE1E72300A40C54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94ADBFC1CE1E72300A40C54 /* ViewController.m */; };
+		A94ADC041CE1E7C400A40C54 /* NTListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A94ADC031CE1E7C400A40C54 /* NTListModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A94ADBF81CE1E72300A40C54 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A94ADBFB1CE1E72300A40C54 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A94ADBFC1CE1E72300A40C54 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A94ADC021CE1E7C400A40C54 /* NTListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTListModel.h; sourceTree = "<group>"; };
+		A94ADC031CE1E7C400A40C54 /* NTListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTListModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +81,8 @@
 		A94ADBF41CE1E72300A40C54 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A94ADBF91CE1E72300A40C54 /* TopicHome */,
 				A94ADBF51CE1E72300A40C54 /* Other */,
-				A94ADBF91CE1E72300A40C54 /* TopicHome(专题主页) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -94,13 +97,14 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		A94ADBF91CE1E72300A40C54 /* TopicHome(专题主页) */ = {
+		A94ADBF91CE1E72300A40C54 /* TopicHome */ = {
 			isa = PBXGroup;
 			children = (
 				A94ADBFA1CE1E72300A40C54 /* Controller */,
 				A94ADBFD1CE1E72300A40C54 /* Model */,
 				A94ADBFE1CE1E72300A40C54 /* View */,
 			);
+			name = TopicHome;
 			path = "TopicHome(专题主页)";
 			sourceTree = "<group>";
 		};
@@ -116,6 +120,8 @@
 		A94ADBFD1CE1E72300A40C54 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A94ADC021CE1E7C400A40C54 /* NTListModel.h */,
+				A94ADC031CE1E7C400A40C54 /* NTListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 				A94ADC011CE1E72300A40C54 /* ViewController.m in Sources */,
 				A94ADC001CE1E72300A40C54 /* main.m in Sources */,
 				A94ADBFF1CE1E72300A40C54 /* AppDelegate.m in Sources */,
+				A94ADC041CE1E7C400A40C54 /* NTListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
